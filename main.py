@@ -36,6 +36,15 @@ async def on_message(message):
   if message.content == "인천대":
     await message.channel.send("죄송합니다")
 
+  if message.content == "백대리":
+    await message.channel.send("그 분은 백 대표입니다.")
+
+  if message.content == "오대리":
+    await message.channel.send("그 분은 오 대표입니다.")
+
+  if message.content == "섹스":
+    await message.channel.send("사이버수사대에 신고 완료했습니다.")
+
   print("김 대표:",client.user.name,"954390234555109427:",client.user.id,"01:",discord.__version__)
 
 
