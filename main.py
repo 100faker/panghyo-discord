@@ -28,7 +28,7 @@ async def on_message(message):
     await message.channel.send("안녕하세요. 팡머시티 회원 여러분. 업계 신용 보증수표. 저 김 대표가 팡머시티 회원 여러분들을 위해 화끈한 이벤트를 준비했습니다. 업계 최고 수준의 정확도와 신뢰도를 자랑하는 〈이상투자그룹〉과 협력하여 현재 무료 주식 정보 이벤트를 진행 중입니다. 최대 300% 수익률을 보장하는 확실한 정보를 모아 담은 〈이상투자그룹〉 서비스에 '무료 가입' 해주시면 저 김 대표가 여러분께 즉시 100만 원을 여러분에게 바로 쏴드리겠습니다. 저 믿고 〈이상투자그룹〉 가입하셔서 좋은 정보도 얻으시고 제가 드리는 100만 원도 꼭 받아가시기 바라겠습니다.")
 
   if message.content == "승트":
-    await message.channel.send(":heart~1:")
+    await message.channel.send(":heart:")
 
   if message.content == "이상투자그룹":
     await message.channel.send("참 좋은 회사입니다. 이상투자그룹 오늘 무료 가입하시면 제가 바로 100만 원 쏩니다")
