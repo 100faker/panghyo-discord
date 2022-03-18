@@ -31,7 +31,7 @@ async def on_message(message):
   await message.channel.send(embed=embed) 
 
   if message.content == "김 대표 사기 아니야?":
-    await message.channel.send("싫어요 :pinching_hand: :pinching_hand: :pinching_hand:")
+    await message.channel.send("사기 아니다 :pinching_hand: :pinching_hand: :pinching_hand:")
 
   print("김 대표:",client.user.name,"954390234555109427:",client.user.id,"01:",discord.__version__)
 
