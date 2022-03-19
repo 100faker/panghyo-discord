@@ -48,6 +48,9 @@ async def on_message(message):
   if message.content == "김대표 그는 신인가?":
     await message.channel.send("김대표 그는 X신인가?")
 
+  if message.content == "김광효":
+    await message.channel.send("그 분은 저하고 관련 없는 사람입니다")
+
   print("김 대표:",client.user.name,"954390234555109427:",client.user.id,"01:",discord.__version__)
 
 
