@@ -90,6 +90,9 @@ async def on_message(message):
   if message.content == ".원영":
     await message.channel.send("https://i.imgur.com/yTkyhdh.gif")
 
+  if message.content == "김광효 직캠":
+    await message.channel.send("https://i.imgur.com/d5Pgo09.gif")
+
   if message.content == "원영아 사랑해":
     await message.channel.send("https://i.imgur.com/LgMsMLX.gif")
 
