@@ -96,6 +96,9 @@ async def on_message(message):
   if message.content == "원영아 사랑해":
     await message.channel.send("https://i.imgur.com/LgMsMLX.gif")
 
+  if message.content == "와칸다 포에버":
+    await message.channel.send("https://i.imgur.com/AEU5C3U.gif")
+
   print("김 대표:",client.user.name,"954390234555109427:",client.user.id,"01:",discord.__version__)
 
 
