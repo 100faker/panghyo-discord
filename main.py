@@ -66,6 +66,15 @@ async def on_message(message):
   if message.content == "이년":
     await message.channel.send("올해는 2022년입니다")
 
+  if message.content == "팡효":
+    await message.channel.send("https://i.imgur.com/6fEViVp.png")
+
+  if message.content == "원영아":
+    await message.channel.send("https://i.imgur.com/L4XPmvT.jpg")
+
+  if message.content == "재희야":
+    await message.channel.send("https://i.imgur.com/DZnTLr0.jpg")
+
   print("김 대표:",client.user.name,"954390234555109427:",client.user.id,"01:",discord.__version__)
 
 
