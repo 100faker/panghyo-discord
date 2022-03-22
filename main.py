@@ -58,7 +58,13 @@ async def on_message(message):
     await message.channel.send("야이 씨발년아?")
 
   if message.content == "십년아":
-    await message.channel.send("야이 씨발년아")
+    await message.channel.send("야이 X발년아")
+
+  if message.content == "사랑해":
+    await message.channel.send("야이 X발년아")
+
+  if message.content == "이년":
+    await message.channel.send("올해는 2022년입니다")
 
   print("김 대표:",client.user.name,"954390234555109427:",client.user.id,"01:",discord.__version__)
 
