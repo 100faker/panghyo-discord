@@ -69,11 +69,20 @@ async def on_message(message):
   if message.content == "팡효":
     await message.channel.send("https://i.imgur.com/6fEViVp.png")
 
-  if message.content == "원영아":
+  if message.content == ".장원영":
     await message.channel.send("https://i.imgur.com/L4XPmvT.jpg")
 
-  if message.content == "재희야":
+  if message.content == ".재희":
     await message.channel.send("https://i.imgur.com/DZnTLr0.jpg")
+
+  if message.content == ".윈터":
+    await message.channel.send("https://i.imgur.com/MspuiT9.gif")
+
+  if message.content == ".카리나":
+    await message.channel.send("https://i.imgur.com/Odslp2j.gif")
+
+  if message.content == ".카깅이":
+    await message.channel.send("https://i.imgur.com/ZoSPpGj.gif")
 
   print("김 대표:",client.user.name,"954390234555109427:",client.user.id,"01:",discord.__version__)
 
