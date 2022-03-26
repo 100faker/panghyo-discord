@@ -57,6 +57,12 @@ async def on_message(message):
   if message.content == "야이씨발년아":
     await message.channel.send("야이 씨발년아?")
 
+  if message.content == "씨발":
+    await message.channel.send("이런씨발")
+
+  if message.content == "마개새끼야":
+    await message.channel.send("마 개새끼야?")
+
   if message.content == "십년아":
     await message.channel.send("야이 X발년아")
 
